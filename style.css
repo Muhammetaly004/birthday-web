@@ -7,6 +7,7 @@ body {
       background: linear-gradient(to bottom right, #8305b4, #2ff0f0);
       color: #170125;
       text-align: center;
+      overflow-x: hidden;
     }
     header {
     
@@ -52,21 +53,14 @@ body {
       box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     }
     @media (max-width: 600px) {
-  .gallery1 img,
-  .gallery2 img,
-  .image5 {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    transform: none; /* İsteğe bağlı olarak küçük ekranda döndürmeyi kapatabilirsin */
-  }
+      .gallery img {
+        width: 100%;
+      }
     }
     .image5{
-       max-width: 90%;
+       
       transform: rotate(-10deg);
-      margin: 0px;
-      border: 3px solid #0bc49c;
-      border-radius: 10px;
+
     }
     .image10{
       transform: rotate(-10deg);
