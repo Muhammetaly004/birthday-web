@@ -25,7 +25,7 @@ body {
       padding: 10px;
     }
     .gallery1 img {
-      max-width: 90%;
+      max-width: 80%;
       height: auto;
       margin: 10px;
       border: 3px solid #0bc49c;
@@ -42,20 +42,20 @@ body {
      width: 150px;
       height: auto;
     
-      border: 3px solid #0bc49c;
+      border: 3px solid #6415be;
       border-radius: 10px;
     }
     .gallery4 img {
      width: 150px;
       height: auto;
     
-      border: 3px solid #0bc49c;
+      border: 3px solid #6415be;
       border-radius: 10px;
     }
     video {
-      max-width: 80%;
+      max-width: 90%;
       margin: 10px;
-      border: 2px solid #0bc49c;
+      border: 4px solid #230846;
       border-radius: 10px;
     }
     .memory {

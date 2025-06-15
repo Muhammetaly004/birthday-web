@@ -10,6 +10,45 @@
   <body>
     <header>🎉 Sürpriz! Mutlu Yıllar NURJAHAN! 🎂</header>
 
+     <!-- Bu scripti </body> kapanış etiketinden hemen önce ekle -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+  window.addEventListener('load', () => {
+    // İlk büyük konfeti patlaması
+    confetti({
+      particleCount: 150,
+      spread: 100,
+      origin: { y: 0.6 }
+    });
+
+    // 8 saniye boyunca yağmur efekti
+    const duration = 8000; // 8 saniye
+    const end = Date.now() + duration;
+
+    (function rain() {
+      // İki yandan az az konfeti yağdır
+      confetti({
+        particleCount: 2,
+        angle: 60,
+        spread: 55,
+        origin: { x: 0 }
+      });
+      confetti({
+        particleCount: 2,
+        angle: 120,
+        spread: 55,
+        origin: { x: 1 }
+      });
+
+      if (Date.now() < end) {
+        requestAnimationFrame(rain);
+      }
+    })();
+  });
+</script>
+
+  </script>
+
     <section class="gallery1">
       <h1>📸 Anılarımız</h1>
       <img src="image/image16.jpg" alt="Anı 1" />
