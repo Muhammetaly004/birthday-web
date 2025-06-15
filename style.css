@@ -24,7 +24,7 @@ body {
       padding: 10px;
     }
     .gallery img {
-      width: 200px;
+      width: 400px;
       height: auto;
       margin: 10px;
       border: 3px solid #0bc49c;
@@ -49,10 +49,13 @@ body {
         width: 100%;
       }
     }
-    .image3{
+    .image5{
       width: 400px;
       transform: rotate(-10deg);
       margin: 0px;
       border: 3px solid #0bc49c;
       border-radius: 10px;
+    }
+    .image10{
+      transform: rotate(-10deg);
     }
