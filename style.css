@@ -52,9 +52,14 @@ body {
       box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
     }
     @media (max-width: 600px) {
-      .gallery img {
-        width: 100%;
-      }
+  .gallery1 img,
+  .gallery2 img,
+  .image5 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transform: none; /* İsteğe bağlı olarak küçük ekranda döndürmeyi kapatabilirsin */
+  }
     }
     .image5{
        max-width: 90%;
